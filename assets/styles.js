@@ -23,8 +23,7 @@ export default StyleSheet.create({
     color: '#eee',
     fontSize: 15,
     textAlign: 'center',
-    paddingLeft: 30,
-    paddingRight: 30,
+    padding: 30,
   },
   h2:{
     fontSize: 30,
