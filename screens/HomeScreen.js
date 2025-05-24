@@ -7,7 +7,7 @@ export default function Home(){
     const navigation = useNavigation();
     return (
       <ScrollView contentContainerStyle={styles.scrollContainer}>
-          <StatusBar backgroundColor="#333" style="light" />
+          <StatusBar style="light" />
           <Text style={styles.h2}>DinoBlog</Text>
           <Image source={require('../assets/tyrannosaurus-rex-wild.jpg')} style={styles.image}  />
           <Text style={styles.paragraphTitle}>Dinoblog'a hoşgeldiniz</Text>
@@ -18,14 +18,14 @@ export default function Home(){
                 <TouchableOpacity style={styles.gridCard} onPress={() => navigation.navigate('Ornithischia', { type: 'Ornithischia' })}>
                   <ImageBackground source={require('../assets/Ornithischia.jpg')} style={styles.gridİmage} />
                   <View style={styles.overlay}>
-                    <Text style={styles.h4}>Ornithischia</Text>
+                    <Text style={styles.h3}>Ornithischia</Text>
                   </View>
                   
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.gridCard} onPress={() => navigation.navigate('Saurnichia', { type: 'Saurnichia' })}>
-                  <ImageBackground source={require('../assets/Ornithischia.jpg')} style={styles.gridİmage}  />  
+                  <ImageBackground source={require('../assets/velociraptor.jpg')} style={styles.gridİmage}  />  
                   <View style={styles.overlay}>
-                    <Text style={styles.h4}>Saurnichia</Text>
+                    <Text style={styles.h3}>Saurnichia</Text>
                   </View>
                 </TouchableOpacity>
               </View>

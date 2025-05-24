@@ -11,7 +11,7 @@ export default StyleSheet.create({
     backgroundColor: '#333',
     alignItems: 'center',
     paddingTop: 50,
-    paddingBottom: 50
+    paddingBottom: 50,
   },
   paragraphTitle:{
     color: '#eee',
@@ -23,7 +23,7 @@ export default StyleSheet.create({
     color: '#eee',
     fontSize: 15,
     textAlign: 'center',
-    padding: 30,
+    padding: 20,
   },
   h2:{
     fontSize: 30,
@@ -36,13 +36,14 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     color: '#eee',
     margin: 20,
+    textAlign: 'center'
   },
   h4: {
     fontSize: 16,
     fontWeight: 'bold',
     color: '#eee',
     margin: 20,
-    textAlign: 'center'
+    lineHeight: 30
   },
   image: {
     width: 350,
@@ -79,5 +80,22 @@ export default StyleSheet.create({
     flex : 1,
     justifyContent: 'center',
     textAlign: 'center'
+  },
+  list:{
+    margin: 10,
+  },
+  listContainer:{
+    width: '100%',
+    alignItems : 'flex-start'
+  },
+  listExample:{
+    color: '#eee',
+    marginLeft: 20
+  },
+  listİmage:{
+    width: '90%',
+    aspectRatio: 16 / 9,
+    borderRadius: 20,
+    alignSelf: 'center'
   }
 });
